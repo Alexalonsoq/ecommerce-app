@@ -1,1 +1,28 @@
-{}
+{
+    "name": "amazona",
+    "type": "module",
+    "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Alexalonsoq/ecommerce-app.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Alexalonsoq/ecommerce-app/issues"
+    },
+    "homepage": "https://github.com/Alexalonsoq/ecommerce-app#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    },
+    "devDependencies": {
+        "eslint": "^7.24.0",
+        "eslint-plugin-react": "^7.23.2",
+        "nodemon": "^2.0.7"
+    }
+}
